@@ -7,6 +7,7 @@ sezioni.click(clickOnSection);
 
 function clickOnSection() {
 var sezione = $(this);
+ sezione.html("");
 $.ajax(
 {
 url: "https://flynn.boolean.careers/exercises/api/random/int",
