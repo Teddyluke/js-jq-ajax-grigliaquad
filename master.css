@@ -1,0 +1,26 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  gap: 1px 1px;
+}
+
+
+.sezione {
+  background-color: grey;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 10px;
+}
